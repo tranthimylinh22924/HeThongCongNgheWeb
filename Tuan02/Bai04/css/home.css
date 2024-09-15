@@ -1,0 +1,35 @@
+.main .section {
+  flex: 1;
+  margin-left: 15px;
+  padding: 15px;
+}
+.main .section .section-one h1, .main .section .section-two h1 {
+  font-size: 30px;
+  color: #F89B1A;
+}
+
+.main .section .section-one p, .main .section .section-two p {
+  font-size: 20px;
+  color: #c47e88;
+}
+
+.main .section .box {
+  padding: 10px 0 10px 0;
+  border-left: 5px solid #F89B1A;
+  border-top: 5px solid #F89B1A;
+  border-right: 5px solid #85530b;
+  border-bottom: 5px solid #85530b;
+  max-width: 300px;
+  float: right;
+}
+.main .section .box .title {
+  color: #F89B1A;
+  font-size: 25px;
+  margin-top: 0;
+}
+.main .section .box  ul {
+  list-style-type: disc;
+  margin-left: 50px;
+  color: #c47e88;
+  font-size: 18px;
+}

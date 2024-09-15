@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(../image/background.jpg);
+  padding: 15px 15px 0 15px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.main {
+  display: flex;
+  border-bottom:5px solid  #009B01;
+  padding-bottom: 10px;
+}
+.main .aside {
+  width: 15%;
+  background-color: #ffffff;
+  padding: 20px;
+  height: 210px;
+  margin-right: 50px;
+}
+.main .aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main .aside ul li {
+  margin-bottom: 15px;
+}
+.main .aside ul li a {
+  text-decoration: none;
+  color: rgb(204, 97, 115);
+  font-size: 20px;
+}
+
+.main .section {
+  flex: 1;
+  color: #ffffff;
+  border-left: 3px solid #009B01;
+  padding-left: 20px;
+}
+
+.main .section .title {
+  background-color: #009B01;
+  max-width: 800px;
+  font-size: 40px;
+  padding-left: 80px;
+  letter-spacing: 15px;
+}
+
+.main .section p {
+  font-size: 20px;
+}
+.main .section .content img{
+  float: right;
+}
+.main .section h2 {
+  background-color: #009B01;
+  font-size: 25px;
+  max-width: 400px;
+  padding-left: 20px;
+}
+.main .section ul {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: 20px;
+}
