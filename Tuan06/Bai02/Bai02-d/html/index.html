@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bai 2d</title>
+  <style>
+    .container {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .text {
+      padding-left: 35%;
+      padding-right: 35%;
+      margin-top: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form action="">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">FORM ĐỊNH DẠNG</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><label for="hoten">Họ và tên</label></td>
+            <td><input type="text" name="HoTen" id="hoten"></td>
+          </tr>
+
+          <tr>
+            <td><label for="">Chọn</label></td>
+            <td>
+              <input type="radio" name="Chon" checked id="bg"> Background
+              <input type="radio" name="Chon" id="font"> Font
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="mau">Chọn màu</label></td>
+            <td>
+              <select name="ChonMau" id="mau">
+                <option value="0">Chọn màu</option>
+                <option value="red">Đỏ</option>
+                <option value="blue">Xanh</option>
+                <option value="green">Xanh lục</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <button type="button" id="change">Đổi màu</button>
+              <button type="button" id="cancel">Cancel</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+
+  <div class="container" style="margin-top: 15px;">
+    <p class="text" id="text">You can direct link the hyperlink with the file if you know the address but this is limited by the
+      browser. eg. if pdf reader is installed on the client the the pdf will not be downloaded istead it will be shown.
+      A good solution would be to have a seperate page for downloading files. just pass filename in querystring and in
+      the pageload event just outpit the file in response stream. This way you can use url say dwnld.aspx? filename.ext
+    </p>
+  </div>
+  <script src="../js/index.js"></script>
+</body>
+
+</html>

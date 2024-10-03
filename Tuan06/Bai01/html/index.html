@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  table {
+    border-collapse: collapse;
+    /* max-width: 500px; */
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table, tr, td {
+    border: 2px solid #ddd;
+    text-align: center;
+  }
+  .head {
+    color: rgb(225, 120, 137);
+    font-weight: 600;
+  }
+</style>
+<body>
+  <button onclick="nhap()">Nhập thông tin</button>
+  <table>
+    <tbody id="body">
+      <tr>
+        <td colspan="3" class="head">DANH SÁCH SINH VIÊN</td>
+      </tr>
+      <tr>
+        <td>MSSV</td>
+        <td>Tên</td>
+        <td>Lớp</td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="../js/index.js"></script>
+</body>
+</html>

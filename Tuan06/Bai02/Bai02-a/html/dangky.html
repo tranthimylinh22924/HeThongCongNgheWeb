@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dang ky</title>
+  <style>
+    table {
+      background-color: #DEDEDE;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .container {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    th,
+    td {
+      padding: 3px 20px 3px 20px;
+    }
+
+    input {
+      width: 70%;
+    }
+
+    .c2 {
+      padding: 0px 90px 0px 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form action="">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2" style="color: rgb(219, 92, 177);">THÔNG TIN ĐĂNG KÝ</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><label for="hoten">Họ tên</label></td>
+            <td class="c2"><input type="text" name="HoTen" id="hoten"></td>
+          </tr>
+
+          <tr>
+            <td><label for="mk">Mật khẩu</label></td>
+            <td class="c2"><input type="text" name="MatKhau" id="mk"></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td class="c2"><button type="button" id="submit">Nhap</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+  <script src="../js/dangky.js"></script>
+</body>
+
+</html>
