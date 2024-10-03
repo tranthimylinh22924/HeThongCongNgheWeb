@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Roboto Condensed";
+}
+
+.btn-primary {
+    background-color: #159DCC;
+}
+
+.navbar {
+    background-color: #767676;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff;
+}
+
+.main {
+    background: linear-gradient(90deg, #F3B9F1, #B0CFF9);
+    padding: 32px 0;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.sub-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.btn-order {
+    border: 2px solid #000000;
+    background-color: transparent;
+    padding: 16px 48px;
+    border-radius: 50px;
+}

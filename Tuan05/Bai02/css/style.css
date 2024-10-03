@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.container {
+    max-width: 1190px;
+}
+.bg {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/hero-bg.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+.navbar-brand , .nav-link {
+    color: #ffffff;
+}
+.navbar-brand {
+    font-family: "Dancing Script";
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav-link {
+    transition: all 0.3s;
+    
+}
+.navbar-nav {
+    padding-left: 15%;
+}
+.navbar-nav .nav-item .nav-link {
+    padding: 5px 20px;
+}
+.nav-link:hover {
+    color: #ffbe33;
+}
+/* .nav-link:focus{
+    outline: none;
+} */
+.button {
+    border: 0;
+    padding: 8px 30px;
+    color: #ffffff;
+    border-radius: 45px;
+    background-color: #ffbe33;
+    transition: all 0.2s;
+}
+.button:hover{
+    background-color: #E69C00;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffbe33;
+}
+.me-10 {
+    margin-right: 100px;
+}
+.navbar .option .nav-link {
+    margin: 0 10px;
+}
+.main {
+    padding: 45px 0 75px 0;
+    position: relative;
+    color: #ffffff;
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.main .box {
+    margin-bottom: 145px;
+}
+.main .box p {
+    font-size: 14px;
+}
+.main .box .title {
+    font-family: "Dancing Script";
+    font-size: 56px;
+    margin-bottom: 15px;
+
+}
+.main .box .button.btn-main {
+    padding: 10px 45px;
+}
+.carousel-indicators {
+    display: block;
+    margin: 0;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 1;
+}
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    background-color: #ffbe33;
+}
+.sec-one {
+    padding: 45px 90px;
+}
+.sec-one .box {
+    padding: 20px 15px;
+    display: flex;
+    background-color: #222831;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.sec-one .box .image {
+    border-radius: 50%;
+    border: 5px solid #ffbe33;
+    overflow: hidden;
+}
+.sec-one .box .image img {
+    transition: all 0.3s;
+}
+.sec-one .box .image:hover.image img {
+    transform: scale(1.1);
+}
+.sec-one .box .title, .sale {
+    font-family: "Dancing Script";
+}
+.sec-one .box .title {
+    font-size: 24px;
+}
+.sec-one .box .sale {
+    font-size: 40px;
+}
+.menu {
+    padding-bottom: 90px;
+}
+.menu .title {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Dancing Script";
+}
+.menu .category {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0 20px 0;
+}
+.menu .category li {
+    padding: 7px 25px;
+    cursor: pointer;
+}
+.menu .category li.active {
+    background-color: #222831;
+    border-radius: 25px;
+    color: #ffffff;
+}
+.menu .list .item {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #222831;
+    margin-top: 25px     ;
+}
+.menu .list .item:hover.item img {
+    transform: scale(1.1);
+}
+.menu .list .item .image {
+    padding: 25px;
+    background-color: #F1F2F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 45px;
+}
+.menu .list .item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    transition: all .2s;
+}
+.menu .list .item .content {
+    padding: 25px;
+    color: #ffffff;
+}
+.menu .list .item .content .name {
+    font-size: 20px;
+}
+.menu .list .item .content .description {
+    font-size: 15px;
+}
+.menu .list .item .content .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .list .item .content .bottom .btn-add button {
+    border: 0;
+    background-color: #ffbe33;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .btn-view {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.menu .btn-view .button {
+    padding: 10px 55px;
+}
+.about {
+    padding: 90px 0;
+    background-color: #222831;
+    color: #ffffff;
+}
+.about .image img {
+    max-width: 445px;
+}
+.about .title {
+    font-family: "Dancing Script";
+    font-size: 40px;
+    margin: 0;
+}
+.about .sub-title {
+    margin: 15px 0;
+}
+.about .button.btn-read {
+    padding: 10px 45px;
+    margin-top: 15px;
+}
+.book {
+    padding: 90px 0;
+}
+.form-control, .form-select {
+    padding: 6px 12px 6px 25px;
+    margin-bottom: 25px;
+    height: 50px;
+    border: 1px solid #999;
+}
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    border: 1px solid #999;
+}
+.book .button.btn-book {
+    padding: 10px 55px;
+    margin-top: 15px;
+}
+.book .google-map {
+    height: 345px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.footer {
+    padding: 75px 40px;
+    background-color: #222831;
+    color: #ffffff;
+}
+.footer .title {
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-family: "Dancing Script";
+}
+.footer .location, .phone, .email {
+    cursor: pointer;
+    transition: all .2s;
+}
+.footer .location:hover, .phone:hover, .email:hover {
+    color: #ffbe33;
+}
+.footer .desc {
+    color: #dbdbdb;
+}
+.footer .social i{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #222831;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: all .1s;
+}
+.footer .social i:hover {
+    color: #ffbe33;
+}
+.fa-bars:before {
+    font-size: 35px;
+}
+.navbar-toggler {
+    border: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.modal-title {
+    color: #ffbe33;
+}
+#myModal .modal-body input:focus {
+    border: 1px solid #ffbe33;
+}
