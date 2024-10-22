@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="">
+      <h3>Register Form</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td class="left">Họ và tên (*):</td>
+            <td colspan="2">
+              <input type="text" id="name">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Tên đăng nhập (*):</td>
+            <td colspan="2">
+              <input type="text" id="username">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Mật khẩu (*):</td>
+            <td colspan="2">
+              <input type="password" id="pass1">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Xác nhận mật khẩu (*):</td>
+            <td colspan="2">
+              <input type="password" id="pass2">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Ngày sinh:</td>
+            <td colspan="2">
+              <input type="date" value="1990-01-01" id="birthDate">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Điện thoại:</td>
+            <td colspan="2">
+              <input type="text" id="phone">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Địa chỉ:</td>
+            <td colspan="2">
+              <input type="text" id="address">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Email khác:</td>
+            <td colspan="2">
+              <input type="email" id="email">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Sở thích:</td>
+            <td colspan="2">
+              <select id="select">
+                <option value="Ca nhạc" selected>Ca nhạc</option>
+                <option value="Múa hát" >Múa hát</option>
+                <option value="Học tập" >Học tập</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <button type="submit" id="register">Dang Ky</button>
+              <button>Huy</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.image1 {
+  width: 200px;
+  height: 180px;
+  border: 1px solid #ddd;
+}
+.image2 {
+  width: 200px;
+  height: 180px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+img {
+  width: 100%;
+  height: 90%;
+  padding: 20px 20px 0px 20px;
+}

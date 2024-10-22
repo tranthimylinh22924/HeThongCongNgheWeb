@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="image">
+        <img src="../img/banner_car.jpg" alt="">
+      </div>
+    </div>
+    <div class="section">
+      <div class="left">
+        <table style="text-align: center; font-weight: 600; color: blue;">
+          <tr>
+            <td colspan="2" style="color: rgb(5, 5, 186); background-color: #ddd;">Bảng tin thị trường</td>
+          </tr>
+          <tr>
+            <td colspan="2" style="background-color: #ddd;">Vàng</td>
+          </tr>
+          <tr>
+            <td>Mua vào</td>
+            <td>Bán ra</td>
+          </tr>
+          <tr>
+            <td style="height: 30px;" id="vang1"></td>
+            <td id="vang2"></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="background-color: #ddd;">USD</td>
+          </tr>
+          <tr>
+            <td>Mua vào</td>
+            <td>Bán ra</td>
+          </tr>
+          <tr>
+            <td id="usd1" style="height: 30px;"></td>
+            <td id="usd2"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="mid">
+        <table style="font-weight: 600; background-color: #ddd;">
+          <tr>
+            <td colspan="2" style="text-align: center;color: blue;">Cập nhật giá cả thị trường</td>
+          </tr>
+          <tr>
+            <td>Mua vào</td>
+            <td>
+              <input type="text" id="muavao">
+            </td>
+          </tr>
+          <tr>
+            <td>Bán ra</td>
+            <td>
+              <input type="text" id="banra">
+            </td>
+          </tr>
+          <tr>
+            <td>Loại xe</td>
+            <td>
+              <select id="car">
+                <option value="../img/car1.jpg;35000">Toyota</option>
+                <option value="../img/car2.jpg;15000">KIA</option>
+                <option value="../img/car3.jpg;40000">Ford</option>
+                <option value="../img/car4.jpg;32000">Civic</option>
+                <option value="../img/car5.jpg;50000">Ferrari</option>
+                <option value="../img/car7.jpg;45000">Mercedes</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="radio" name="money" id="vang"> Vàng
+              <input type="radio" name="money" id="usd"> USD
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+             <td>
+              <button id="update">Update</button>
+              <button id="state" disabled>State</button>
+             </td>
+          </tr>
+        </table>
+      </div>
+      <div class="right">
+        <table style="font-weight: 600;">
+          <tr>
+            <td style="text-align: center; color: rgb(5, 5, 186);background-color: #ddd;">Bảng báo giá</td>
+          </tr>
+          <tr>
+            <td style="color: blue;">
+              <p>- Với kiểu dáng thể thao, sang trọng</p>
+              <p>- Nổi bật, ít tốn nhiên liệu</p>
+              <p>- Kiểu dáng thể thao</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center;display: flex;justify-content: center; background-color: #ddd;">
+              <div class="image" style="width: 50%;">
+                <img id="image" style="width: 100%; object-fit: cover;" src="../img/car1.jpg" alt="">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="color: green;">Giá: <span id="price">35000</span> USD</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/index.js"></script>
+</body>
+</html>

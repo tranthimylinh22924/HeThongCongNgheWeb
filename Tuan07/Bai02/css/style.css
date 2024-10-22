@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+.header .image img {
+  width: 100%;
+  object-fit: cover;
+}
+.section {
+  display: flex;
+}
+.section .left {
+  width: 30%;
+}
+.section .mid {
+  width: 35%;
+}
+.section .right {
+  width: 35%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr, td {
+  border: 1px solid #464444;
+}
+td {
+  padding: 5px;
+}
