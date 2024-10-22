@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Họ tên: </td>
+                        <td><input type="text" id="hoTen"></td>
+                    </tr>
+                    <tr>
+                        <td>Lớp: </td>
+                        <td>
+                            <select name="" id="lop">
+                <option value="Đại học Kỹ thuật phần mềm 9A">Đại học Kỹ thuật phần mềm 9A</option>
+                <option value="Đại học khoa học máy tính 10A">Đại học khoa học máy tính 10A</option>
+                <option value="Đại học công nghệ thông tin 11B">Đại học công nghệ thông tin 11B</option>
+              </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Môn học: </td>
+                        <td>
+                            <select name="" id="mon">
+                <option value="Lập trình hướng đối tượng">Lập trình hướng đối tượng</option>
+                <option value="Lập trình hướng sự kiện">Lập trình hướng sự kiện</option>
+                <option value="Lập trình java phân tán">Lập trình java phân tán</option>
+              </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Loại: </td>
+                        <td>
+                            <input type="radio" name="type" checked id="LT"> <span>Lý thuyết</span>
+                            <br>
+                            <input type="radio" name="type" id="TH"> <span>Thực hành</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" id="register" disabled>Đăng ký</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <table class="data">
+            <thead>
+                <tr>
+                    <th>Họ tên</th>
+                    <th>Lớp</th>
+                    <th>Môn học đăng ký</th>
+                    <th>Loại</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+                <tr>
+                    <td>Trần Thị Mỹ Linh</td>
+                    <td>DHTMDT18B</td>
+                    <td>Hệ thống công nghệ WEB</td>
+                    <td>Thực hành</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+<style>
+    .container .data {
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+    
+    .container .data td,
+    th {
+        vertical-align: middle;
+        padding: 0 20px;
+    }
+    
+    .container .data tr,
+    .container .data td,
+    .container .data th {
+        border: 1px solid #ddd;
+    }
+</style>
+
+</html>

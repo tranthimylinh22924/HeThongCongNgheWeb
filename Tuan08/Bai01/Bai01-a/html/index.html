@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Đăng ký tài khoản</h1>
+            <table>
+                <tr>
+                    <td>Tên đăng nhập: </td>
+                    <td><input type="text" placeholder="txtDN" id="txtDN"><span>*</span></td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu: </td>
+                    <td><input type="password" placeholder="txtMK" id="txtMK"><span>*</span></td>
+                </tr>
+                <tr>
+                    <td>Nhập lại mật khẩu: </td>
+                    <td><input type="password" placeholder="txtXNMK" id="txtXNMK"><span>*</span></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h3>Thông tin cá nhân</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Họ và tên:</td>
+                    <td><input type="text" placeholder="txtName" id="txtName"><span>* bắt buộc</span></td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh:</td>
+                    <td><input type="date" id="date"><span>*</span></td>
+                </tr>
+                <tr>
+                    <td>Giới tính:</td>
+                    <td>
+                        <input type="radio" name="gender" checked> Nam
+                        <input type="radio" name="gender" checked> Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" placeholder="txtDC" id="txtDC"><span>*</span></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="text" placeholder="txtPhone" id="txtPhone"><span>phải là số</span></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="txtEmail" id="txtEmail"><span>nhập đúng địa chỉ email</span></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" id="register">Đăng ký</button>
+                        <button type="submit" id="cancel">Hủy</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+<style>
+    span {
+        color: red;
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    form {
+        padding: 10px 50px;
+        border: 1px solid #ddd;
+    }
+    
+    button {
+        background-color: #000;
+        color: #ffffff;
+    }
+</style>
+
+</html>

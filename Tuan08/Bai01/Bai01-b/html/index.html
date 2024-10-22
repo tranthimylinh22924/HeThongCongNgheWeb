@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/index.js"></script>
+    <style>
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .col-5 p {
+            color: blue;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        
+        .col-7 h2 {
+            padding-top: 40px;
+        }
+        
+        td {
+            padding: 7px 10px 7px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="max-width: 900px;">
+        <div class="row">
+            <img src="../img/dangNhap.png" alt="">
+        </div>
+
+        <div class="row" style="width: 870px; background-color: #E5E6FB; margin-left: 2px;">
+            <div class="col-5">
+                <img src="../img/anh.png" alt="" style="width: 60%; height: auto; padding-top: 40px;">
+                <p>Cảm ơn bạn <br> đã ghé thăm!</p>
+            </div>
+
+            <div class="col-7" style="padding-left: 20px;">
+                <h2>Đăng ký</h2>
+                <p class="mt-3">Miễn phí và sẽ luôn như vậy</p>
+                <form class="" action="">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input type="text" id="ho" placeholder="Họ"></td>
+                                <td><input id="ten" type="text" placeholder="Tên"></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2"><input class="w-100" type="text" id="email" placeholder="Email đăng nhập">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2"><input class="w-100" type="text" id="nlemail" placeholder="Nhập lại Email">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2"><input class="w-100" type="text" id="matKhau" placeholder="Mật khẩu"></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2"><input class="w-100" type="text" id="namSinh" placeholder="Năm sinh"></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2"><button type="submit" class="btn btn-success" style="padding: 2px 40px 2px 40px;" id="register">Đăng
+                    ký</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+
+            <div class="row">
+                <p class="mb-0 mt-3">Chúng tôi mong sớm gặp bạn.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
